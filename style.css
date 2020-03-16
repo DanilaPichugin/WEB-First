@@ -1,0 +1,242 @@
+    * {
+        margin: 0;
+    }
+    
+    .header {
+        position: fixed;
+        width: 100%;
+        background: #007765;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .container {
+        margin: auto;
+        width: 1600px;
+    }
+    
+    .container-nav ul {
+        padding-bottom: 7px;
+    }
+    
+    .container-nav li {
+        display: inline;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .main {
+        padding-top: 180px;
+        padding-bottom: 120px;
+        background-image: url("image-8.png");
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .container-message {
+        box-sizing: border-box;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    
+    .PiperNetIsHere_message {
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 72px;
+        line-height: 84px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .header-wrap {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    h1 {
+        color: #007765;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 75px;
+    }
+    
+    p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 37px;
+        color: #000000;
+        margin-bottom: 1em;
+    }
+    
+    .container-section {
+        background: #EEEEEE;
+        padding-top: 48px;
+        padding-bottom: 92px;
+        background-size: cover;
+    }
+    
+    .container-section-white {
+        background: #FFFFFF;
+        padding-top: 48px;
+        padding-bottom: 92px;
+    }
+    
+    .container-text {
+        margin: auto;
+        width: 1110px;
+        margin-top: 41px;
+        text-align: left;
+    }
+    
+    .container-header {
+        margin: auto;
+        width: 1110px;
+        text-align: center;
+    }
+    
+    .hero {
+        padding-top: 128px;
+        padding-bottom: 128px;
+        background-image: url('image-1.png');
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    .container-hero {
+        box-sizing: border-box;
+        max-width: 1219px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    
+    .hero_message {
+        font-family: Roboto, sans-serif;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .image {
+        float: left;
+        margin: 16px 48px 35px;
+    }
+    
+    .foot {
+        background: #333333;
+        padding-top: 50px;
+        padding-bottom: 62px;
+    }
+    
+    .foot address {
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .foot address a {
+        color: #007765;
+        text-align: center;
+    }
+    
+    figcaption {
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        color: #007765
+    }
+    
+    .container-section-team {
+        width: 100%;
+        background: #EEEEEE;
+        padding-top: 58px;
+        padding-bottom: 112px;
+    }
+    
+    .thumb {
+        margin: auto;
+        width: 1600px;
+    }
+    
+    .figure-wrap {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .thumb figure {
+        width: 23%;
+        margin: 5%;
+        display: inline-block;
+    }
+    
+    .thumb img {
+        padding-left: 100px;
+        width: 161px;
+        height: 161px;
+    }
+    
+    .thumb figcaption {
+        padding-top: 20px;
+        text-align: center;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        /* identical to box height */
+        color: #007765;
+    }
+    
+    .thumb figcaption p {
+        font-family: Roboto;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+    }
+    
+    .topbutton {
+        width: 100px;
+        border: 2px solid #ccc;
+        background: #f7f7f7;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        cursor: pointer;
+        color: #333;
+        font-family: verdana;
+        font-size: 12px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -khtml-border-radius: 5px;
+    }
